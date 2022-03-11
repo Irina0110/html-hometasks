@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма подбора квартиры</title>
+</head>
+<body>
+<form action="#" method="post" name="search-form">
+    <div>
+        <label>Введите район, станцию метро или улицу
+            <input type="search">
+        </label>
+    </div>
+    <fieldset>
+        <legend>Укажите количество комнат</legend>
+            <label>
+                Студия
+                <input type="checkbox" name="size[]" value="1" >
+            </label>
+            <label>
+                1-комнатная
+                <input type="checkbox"  name="size[]" value="2">
+            </label>
+            <label>
+                2-комнатная
+                <input type="checkbox" name="size[]" value="3">
+            </label>
+            <label>
+                3-комнатная
+                <input type="checkbox" name="size[]" value="3">
+            </label>
+            <label>
+                4-комнатная
+                <input type="checkbox" name="size[]" value="3">
+            </label>
+    </fieldset>
+    <div>
+        <label>Выберите год сдачи дома</label>
+        <datalist id="year">
+            <option value="2022">
+            <option value="2021">
+            <option value="2020">
+            <option value="2019">
+            <option value="2018">
+            <option value="2017">
+            <option value="2016">
+            <option value="2015">
+            <option value="2014">
+            <option value="2013">
+            <option value="2012">
+            <option value="2011">
+            <option value="2010">
+            <option value="2009">
+            <option value="2008">
+            <option value="2007">
+            <option value="2006">
+            <option value="2005">
+            <option value="2004">
+            <option value="2003">
+            <option value="2002">
+            <option value="2001">
+            <option value="2000">
+            <option value="1999">
+            <option value="1998">
+            <option value="1997">
+        </datalist>
+        <input type="text" list="year">
+    </div>
+    <div>
+        <label>Укажите общую площадь (макс.)
+            <input type="number"
+                   placeholder="Не выбрано"
+                   name="area"
+                   min="10"
+            >
+        </label>
+    </div>
+    <fieldset>
+        <legend>Состояние квартиры</legend>
+        <label>
+            С отделкой
+            <input type="radio" name="category"  value="decor">
+        </label>
+        <label>
+            Без отделки
+            <input type="radio" name="category" value="nodecor">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Наличие террасы</legend>
+        <label>
+            С террасой
+            <input type="radio" name="category"  value="terrace">
+        </label>
+        <label>
+            Без террасы
+            <input type="radio" name="category" value="noterrace">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Укажите класс</legend>
+        <label>
+            Бизнес-класс
+            <input type="checkbox" name="size[]" value="1" >
+        </label>
+        <label>
+            Премиум
+            <input type="checkbox"  name="size[]" value="2">
+        </label>
+        <label>
+            Delux
+            <input type="checkbox" name="size[]" value="3">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Выберите этаж</legend>
+        <label>От <input type="number" min="1"></label>
+        <label>До <input type="number" min="1"></label>
+        <label>Не первый этаж<input type="checkbox" name="firstfloor"></label>
+        <label>Не последний этаж<input type="checkbox" name="lastfloor"></label>
+    </fieldset>
+    <div>
+        <button type="submit"> Отправить</button>
+        <button type="reset"> Очистить </button>
+    </div>
+</form>
+</body>
+</html>
