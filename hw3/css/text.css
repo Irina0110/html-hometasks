@@ -1,0 +1,26 @@
+@font-face {
+    font-family: SansSerif;
+}
+* {
+    font-family: SansSerif;
+}
+div > h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.Red-Up{
+    color: red;;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.line{
+    text-decoration: red line-through;
+}
+.red{
+    font-weight: bold;
+    color: red;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
