@@ -1,6 +1,7 @@
 body{
     display: block;
     text-align: center;
+    background-color: azure;
 }
 .img_big {
     width: 200px;
