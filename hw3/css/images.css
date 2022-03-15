@@ -22,3 +22,20 @@ a{
     width: auto;
 
 }
+.img_b1{
+    margin:auto;
+    height: 300px;
+    max-width: 33%;
+    opacity: 20%;
+}
+.img_b2{
+    margin:auto;
+    height: 300px;
+    max-width: 33%;
+    opacity: 60%;
+}
+.img_b3{
+    margin:auto;
+    height: 300px;
+    max-width: 33%;
+}
