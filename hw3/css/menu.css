@@ -14,16 +14,14 @@ a {
 
 }
 a:active{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 7px;
     border-bottom: 3px solid orangered;
 }
 .menu {
+    margin: 0;
+    padding-left: 0;
     color: orangered;
     background-color: orange;
     list-style-type:none;
-    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
